@@ -1,0 +1,110 @@
+/* Navigation */
+* {
+padding: 0;
+margin:0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box
+}
+
+.logo {
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+nav {
+    background: #043321;
+   
+}
+
+nav ul {
+    float: right;
+    margin-right:5%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-family: 'Gupter', serif; 
+    font-weight: 700; 
+    font-size: 25px;
+}
+
+
+/* Body */
+html body {
+    overflow: scroll;
+}
+
+body {
+    background-image: url("stylesheet/background.png");
+    background-size: cover;
+    background-position: center center;
+    background-position: inherit;
+    min-width: 100%;
+  min-height: 100%;
+
+}
+
+h1 {
+    font-family: 'Gupter', serif; 
+    font-weight: 700;
+    font-size: 35px;
+    margin: 6% 20% 3% 10%;
+    text-align: left;
+    
+}
+h2 {
+    font-family: 'Gupter', serif; 
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0% 8% 2% 10%;
+}
+
+h3 {
+    font-family: 'Gupter', serif; 
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0% 8% 2% 10%;
+}
+#p header {
+    margin-top: 100px;
+}
+
+button {
+    margin-left: 10%;
+    margin-bottom: 1%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Gupter';
+    font-weight: 700;
+    border: none;
+}
+
+
+icon {
+    margin-left: 10%;
+    margin-bottom: 150px;
+}
+
+footer {
+    background: #043321;
+    color: white; 
+    text-align: center;
+  padding: 3px;
+  margin-top: 150px;
+  height: 65px; 
+  
+}
+
+footer ul li{
+    padding: 4px; 
+}
